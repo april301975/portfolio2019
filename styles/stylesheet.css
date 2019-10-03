@@ -1,0 +1,67 @@
+body {
+  background-color: powderblue;
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+color: red;
+}
+
+.important {
+  font-weight: bold;
+}
+
+p.important{           /* only paragraph element with class named important */
+  width: 50%;     /*  this has no effect  */
+}
+
+.italicized{
+  font-style: italic;
+  color: darkolivegreen;
+}
+
+.purple-text {
+  color: hsla(240, 0, 0, .5);
+  font-weight: bolder;
+}
+
+.important:hover {
+  background-color: #00FF00;
+  width: 5%;
+}
+
+#lead-paragraph {
+  color: blue;
+  font-weight: bold;
+}
+
+a[href="assignment-1.html"] {
+  background-color: yellow;
+  padding: .25rem;
+}
+
+a[href="#"] {
+  background-color: silver;
+  padding: .25rem;
+}
+
+a[href="about-me.html"] {
+  background-color: papayawhip;
+  padding: .25rem;
+}
+
+h1 {
+  color: red;
+  border-style:solid ;
+  border-width: 1px;
+  border-color: gray;
+}
+
+img {
+  width: 25%;  /* not advisable to set both width and height - width is usually preferred, then height will proportionally adjusted    */
+}
