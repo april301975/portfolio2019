@@ -57,6 +57,13 @@ footer details {
 
 }
 
+.fa-beer:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
 
 .important {
   font-weight: bold;
@@ -141,4 +148,59 @@ img {
 
 .footer-nav a {
   color: black;
+}
+
+.oc-article {
+  height: 50em;
+  width: 65em;
+  /* margin: 1em; */
+  /* border: 1px solid; */
+  /* position: absolute; */
+  padding-top: 50px;
+  padding-left: 200px;
+  font-family: sans-serif;
+}
+.oc-article {
+  float: left
+}
+
+#cats {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#cats th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: green;
+  font-weight: bolder;
+}
+#cats td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cats tr:nth-child(even){background-color: #f2f2f2;}
+
+#cats tr:hover {background-color: #f28e1c;}
+
+#cats th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#cats a:hover {
+  font-size: 150%;
+  font-weight: 700;
+}
+/* first 2 property are required */
+#cats a:hover {
+  transition: font-size;
+  /* transition-property: font-size; */
+  transition-duration: 0.5s;
+  /* transition-timing-function: ease-out; */
+  /* transition-delay: 0.5s; */
 }
